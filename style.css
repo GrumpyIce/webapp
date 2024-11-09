@@ -1,0 +1,350 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid red; */
+    background-image: url("images/stefan-stefancik-6whwCHgsMiA-unsplash\ 1.png");
+    background-position: top-left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav_container{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 60px;
+    height: 30px;
+    /* border: 1px solid blue; */
+}
+.nav{
+    width: 400px;
+    height: 50px;
+    /* border: 1px solid blue; */
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  
+}
+.icons{
+    width: 100px;
+    height: 50px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-content{
+    width: 300px;
+    height: 200px;
+    /* border: 1px solid whitesmoke; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+.header{
+    align-items: center;
+    color: whitesmoke;
+}
+.text{
+    align-items: center;
+    color: whitesmoke;
+}
+.buttons{ 
+    border-radius: 10px;
+    border-color: #04AA6D;
+    text-align: center;
+    font-size: 16px;
+  }
+ .ticket{
+    width: 200px;
+    height: 100px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+     background: #F9F9F9;
+ }
+ .hotel{
+    width: 200px;
+    height: 110px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+ }
+ .tour{
+    width: 200px;
+    height: 110px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    background: #F9F9F9;
+ }
+ .services{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ .services-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .our-services{
+    text-align: center;
+    margin-top: 100px;
+ }
+ .years{
+    height: 150px;
+    width: 100px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+     background: #FFFFFF;
+     text-align: center;
+ }
+ .traveller{
+    height: 150px;
+    width: 100px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+     background: #FFFFFF;
+     text-align: center;
+ }
+ .visited{
+    height: 150px;
+    width: 100px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+     background: #FFFFFF;
+     text-align: center;
+ }
+ .history{
+    height: 150px;
+    width: 100px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+     background: #FFFFFF;
+     text-align: center;
+    
+ }
+ .services-header1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+ }
+ .main-service-header{
+    background-image: url("images/world_map_PNG28\ 1.png");
+    background-position: top-left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+ }
+ .min-destination{
+    text-align: center;
+    margin-top: 50px;
+ }
+ .destination{
+    display: flex;
+    justify-content: space-around;
+    
+ }
+ .main-destination{
+  display: grid;
+
+ }
+ .map-images{
+    width: 450px;
+    height: 270px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+ }
+ .thailand{
+    width: 300px;
+    height: 90px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+ }
+ .indonesia{
+    width: 300px;
+    height: 90px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+ }
+ .newzealand{
+    width: 300px;
+    height: 90px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+ }
+ .thailand{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .indonesia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .newzealand{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .main-package{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+ }
+ .packages{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .hot-deals{
+    background-color: #04AA6D;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: green;
+ }
+ .backpack{
+    background-color: #666666;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #666666;
+ }
+ .south-asia{
+    background-color: #666666;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #666666;
+ }
+ .honeymoon{
+    background-color: #666666;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #666666;
+ }
+ .europe{
+    background-color: #666666;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #666666;
+ }
+ .more{
+    background-color: #666666;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #666666;
+ }
+.indonesia-room{
+   width: 300px;
+   height: 200px;
+   border: 1px solid whitesmoke;
+   border-radius: 20px;
+}
+.japan-room{
+   width: 300px;
+   height: 200px;
+   border: 1px solid whitesmoke;
+    border-radius: 20px;
+}
+.mountains-room{
+   width: 300px;
+   height: 200px;
+   border: 1px solid whitesmoke;
+    border-radius: 20px;
+
+   
+}
+.know-more{
+   color: black;
+   text-decoration: underline;
+   
+}
+p{
+   text-align: right;
+   justify-content: center;
+   float: right;
+
+}
+.hotel-booking{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background: #ECF1F0;
+}
+.discover-more{
+   border-radius: 10px;
+    border-color: #0ff4a0;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+    background: #ECF1F0;
+}
+.full-package{
+   background: #ECF1F0;
+}
+.booking-content{
+   text-align: center;
+   margin-top: 50px;
+}
+.booking-image{
+   display: flex;
+   justify-content: center;
+}
+.about-us{
+   text-align: center;
+   margin-top: 20px;
+}
+.about-img{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+}
+.about-main{
+   background: #ECF1F0;
+}
+.information{
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+}
+.subscribe{
+   width: 800px;
+   height: 200px;
+   background:  #9FFFEC;
+   border-radius: 10px;
+}
+.follow-arrow{
+   display: flex;
+   justify-content: flex-end;
+}
+.subscribe-content{
+   margin-top: 40px;
+   text-align: center;
+
+}
+.closing-information{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 80px;
+}
+.end{
+   text-align: center;
+}
